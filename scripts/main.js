@@ -12,6 +12,7 @@
 function moveAceToEnd(handIn) {
   var noAceHand = [];
   var aceHand = [];
+  
   for (let j = 0; j < handIn.length; j++) {
     if (handIn[j] == "A") {
       aceHand.push(handIn[j]);
@@ -23,10 +24,10 @@ function moveAceToEnd(handIn) {
 }
 
 function handValue (hand) {
+  var handValue = 0;
 
   hand = moveAceToEnd(hand);
 
-  let handValue = 0;
   for (let i = 0; i < hand.length; i++) {
     switch(hand[i]) {
       case "J":
@@ -46,10 +47,8 @@ function handValue (hand) {
         break;
     }
   } 
- console.log(handValue);
   return handValue;
 }
-
 
 /* -----  Hints ------
 
