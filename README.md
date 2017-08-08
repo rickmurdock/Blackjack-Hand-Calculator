@@ -13,7 +13,9 @@ Start with the starter files below, and upon opening up the `index.html` file in
 Your goal is to write a function called `handValue` that takes an array of cards and returns the total value. The interesting part of this is how Blackjack does the scoring. Here are the rules:
 
 - `1`-`10` = Worth face value (1 = 1 point, 4 = 4 points etc)
+
 - `J`, `Q`, `K` = Worth 10 points each
+
 - `A` = Worth 1 *or* 11 points
  
 You'll need to take this into consideration when working through this project.
