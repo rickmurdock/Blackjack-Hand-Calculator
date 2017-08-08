@@ -1,8 +1,6 @@
-# Blackjack-Hand-Calculator
-The Iron Yard Project: Blackjack Hand Calculator
-
-
 # Blackjack Hand Calculator
+
+The Iron Yard Project: Blackjack Hand Calculator
 
 First off, for anyone new to the game of Blackjack, the basic premise is that you want to have a hand value that is closer to 21 than that of the dealer, without going over 21. Therefore, when playing Blackjack, you always need to be continually keeping track of the value you hold in your hand.
 
