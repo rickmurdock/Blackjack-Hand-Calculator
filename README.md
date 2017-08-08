@@ -8,6 +8,8 @@ Taking this into consideration, if you were to build a Blackjack game, you would
 
 Start with the starter files below, and upon opening up the `index.html` file in your browser and opening the JavaScript console, your screen should look similar to the screenshot below.
 
+![blackjack test image](blackjackTests.png)
+
 Your goal is to write a function called `handValue` that takes an array of cards and returns the total value. The interesting part of this is how Blackjack does the scoring. Here are the rules:
 
 - `1`-`10` = Worth face value (1 = 1 point, 4 = 4 points etc)
